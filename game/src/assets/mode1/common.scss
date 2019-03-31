@@ -1,0 +1,46 @@
+//Navbar、Tabbar背景和字体颜色
+$background1: linear-gradient(-20deg, #3e5b3d, #4c8651 25%, #3e5b3d);
+$background2: linear-gradient(to right bottom, #581d19, #ac497f);
+$background3: radial-gradient(farthest-side circle, #ad8108, #c8ca4e);
+$_color1: #3e5b3d;
+$_color2: #ac497f;
+$_color3: #b9a15e;
+
+//Navbar背景颜色------------------------------------------------------------------------------------------------------------------
+.head-bg1 {
+    background-color: $_color1;
+    background: $background1
+}
+
+.head-bg2 {
+    background-color: $_color2;
+    background: $background2
+}
+
+.head-bg3 {
+    background-color: $_color3;
+    background: $background3
+}
+
+//Tabbar文字颜色------------------------------------------------------------------------------------------------------------------
+.text-bg1 {
+    color: $_color1;
+    background: radial-gradient(farthest-side circle, #2b502b, #5caf64);
+}
+
+.text-bg2 {
+    color: $_color2;
+    background: radial-gradient(farthest-side circle, #581d19, #f0b1d4);
+}
+
+.text-bg3 {
+    color: $_color3;
+    background: $background3;
+}
+
+.text-bg1,
+.text-bg2,
+.text-bg3 {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,94 @@
+// 登录页面版式控制
+$cardColor1: rgba(4, 22, 6, 0.5);
+$cardColor2: rgba(160, 151, 157, 0.5);
+$cardColor3: rgba(186, 190, 165, 0.5);
+$buttonColor1: rgb(40, 97, 14);
+$buttonColor2: #bf4840;
+$buttonColor3: #e7b119;
+
+.login {
+    .login-logo {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        width: 100px;
+        height: 100px;
+        color: #e7b119;
+        font-size: 25px;
+    }
+
+    // 横版
+    .login-bg-up {
+        align-items: flex-start;
+
+        .login-card {
+            bottom: 30px;
+        }
+    }
+
+    // 竖版
+    .login-bg-middle {
+        .login-card {
+            top: 50%;
+            margin-top: -100px;
+        }
+    }
+
+    .button-color1 {
+        background-color: $buttonColor1;
+        box-shadow: 0 0 10px 0 #fff;
+    }
+
+    .button-color2 {
+        background-color: $buttonColor2;
+        box-shadow: 0 0 10px 0 #fff;
+    }
+
+    .button-color3 {
+        background-color: $buttonColor3;
+        box-shadow: 0 0 10px 0 #fff;
+    }
+
+    .card-color1 {
+        background-color: $cardColor1;
+    }
+
+    .card-color2 {
+        background-color: $cardColor2;
+    }
+
+    .card-color3 {
+        background-color: $cardColor3;
+    }
+
+    .login-icon-phone {
+        background-image: url(../../../assets/mode1/images/icon_phone.png);
+    }
+
+    .login-icon-password {
+        background-image: url(../../../assets/mode1/images/icon_password.png);
+    }
+}
+
+//---------------------------------------------------------------------------------------
+//注册、找回密码、验证码登录头部和按钮样式控制
+$background1: linear-gradient(20deg, #3e5b3d, #4c8651 25%, #3e5b3d);
+$background2: linear-gradient(to left top, #581d19, #ac497f);
+$background3: linear-gradient(#ad8108, #c8ca4e);
+
+.button-bg1 {
+    background-color: #3e5b3d;
+    background: $background1
+}
+
+.button-bg2 {
+    background-color: #ac497f;
+    background: $background2
+}
+
+.button-bg3 {
+    background-color: #b9a15e;
+    background: $background3
+}
+
+//----------------------------------------------------------------------------------------
